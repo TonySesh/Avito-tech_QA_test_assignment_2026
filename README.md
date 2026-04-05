@@ -1,0 +1,1 @@
+# Avito-tech_QA_test_assignment
