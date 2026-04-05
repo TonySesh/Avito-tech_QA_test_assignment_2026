@@ -25,20 +25,20 @@ mvn clean test
 
 ### Allure отчет:
 1) установка allure через Scope
-   (на windows)
-scoop install allure 
-   (macOS)
-brew install allure
-   (linux)
-   sudo apt-add-repository ppa:qameta/allure
-   sudo apt-get update
-   sudo apt-get install allure
+#### (на windows)
+1) scoop install allure 
+#### (macOS)
+1) brew install allure
+#### (linux)
+1) sudo apt-add-repository ppa:qameta/allure
+2) sudo apt-get update
+3) sudo apt-get install allure
 
-2) генерация отчета
-allure serve target/allure-results  (может потребоваться полный путь)
+### Генерация отчета (Allure)
+- allure serve target/allure-results  (может потребоваться полный путь)
 
 ### Файлы:
-AvitoApiTest - автотесты
-TESTCASES.md - тест-кейсы
-BUGS.md - найденные баги
-pom.xml - зависимости
+#### AvitoApiTest - автотесты
+#### TESTCASES.md - тест-кейсы
+#### BUGS.md - найденные баги
+#### pom.xml - зависимости
