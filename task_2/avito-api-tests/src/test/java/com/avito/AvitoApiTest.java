@@ -37,8 +37,6 @@ public class AvitoApiTest {
         sellerId = generateSellerId();
     }
 
-    // ==================== POST TESTS ====================
-
     @Test
     @Story("Создание объявления")
     @Description("Проверяет успешное создание объявления с валидными данными")
